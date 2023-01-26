@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 35%;
+    height: 100vh;
+    background-color: white;
+    margin-left: 30%;
+    margin-top:3%;
+   
+}
+.header{
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 45% ;
+}
+.header h1{
+    margin-left: 5%;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(36, 36, 36);
+
+}
+.content{
+    margin-top: 15%;
+    width: 80%;
+    height: 50vh;
+    padding: 10px;
+}
+.input-group{
+    width: 60%;
+    height: 80vh;
+    position: relative;
+}
+.input-field{
+    width: 400px;
+    height: 4vh;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid;
+    text-align: center;
+    color: lightgrey;
+}
+.input-field-1{
+    width: 400px;
+    height: 5vh;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    color: lightgray;
+}
+.next-btn{
+    width: 400px;
+    height: 3.5vh;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15;
+    font-family: arial;
+    padding: 4px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.break{
+    display: flex;
+    margin-left: 7%;
+    width: 170%;
+    padding: 5px;
+    justify-content: space-between;
+}
+.break hr{
+    width: 150%;
+    line-height: 1px solid;
+    color: black;
+    align-self: center;
+}
+.break p{
+    font-size: 15px;
+    padding: 6px;
+    text-align: center;
+}
+.last{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.last p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.last p a{
+    text-decoration: none;
+}
